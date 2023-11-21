@@ -1,0 +1,68 @@
+
+.item-nav:hover {
+    background-color: white;
+    border-bottom-color: aliceblue;
+  }
+.modal-login {
+    background-color: gainsboro;
+  }
+  body{
+    background-color: white;
+    align-items: center;
+  }
+
+
+.custom-btn {
+  color: #fff; /* Color del texto */
+  background-color: #007bff; /* Color de fondo */
+  border-color: #007bff; /* Color del borde */
+}
+.table__title{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    background: rgb(59, 33, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.table__header, .table__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.table__input{
+    padding: 5px;
+    font-size: 1em;
+}
+.container{
+  background-image: url(/resources/img/fondo_jumbo.jpg);
+  max-width: none;
+}
+.p_nav{
+  margin-left: 151px;
+}
+.tabla_Articulos{
+  background-color: gray;
+  text-align: center;
+  
+}
+table{
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+table,th,td{
+  border:1px solid black;
+}
